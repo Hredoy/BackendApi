@@ -64,7 +64,10 @@ class OrderController extends Controller
         $type = request('action_type');
         $id = request('order_id');
         if ($type == 'approve') {
-            Order::where('id', $id)->update(array('is_active_status' => 1));
+            $order = Order::where('id', $id)->update(array('is_active_status' => 1));
+            $product = Products::where('id', $order->product_id)->first();
+            $product->qty = $product->qty - $order->qty;
+            $product->save();
         } else {
             Order::where('id', $id)->update(array('is_active_status' => 2));
         }

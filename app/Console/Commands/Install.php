@@ -63,9 +63,9 @@ class Install extends Command
 
         Artisan::call('db:seed', ['--force' => true]);
         Artisan::call('storage:link', ['--force' => true]);
-        Artisan::call('serve');
 
         $this->comment('Database Seeded Successfully...');
-        $this->comment('Successfully Installed! You can now run the software');
+        $this->comment('Successfully Installed! Started Software URL: localhost:8000 / 127.0.0.1:8000');
+        Artisan::call('serve');
     }
 }
