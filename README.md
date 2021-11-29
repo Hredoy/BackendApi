@@ -35,7 +35,7 @@ E-mail:
      E-mail: 
 <pre><code>customer@gmail.com</code></pre>
 Password: 
-<pre><code>password</code><pre>
+<pre><code>password</code></pre>
 
 ## SERVE
 
