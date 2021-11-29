@@ -44,4 +44,4 @@ Password:
 
 ## API DOCUMENTATION
 
-<a href="https://documenter.getpostman.com/view/14858329/UVJbJy2p">CLICK HERE TO SEE API DOCUMENTATION</a>
+<a href="https://documenter.getpostman.com/view/14858329/UVJbJy2p" target="_blank">CLICK HERE TO SEE API DOCUMENTATION</a>
