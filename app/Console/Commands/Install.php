@@ -62,6 +62,7 @@ class Install extends Command
         $this->info('Seeding DB data...');
 
         Artisan::call('db:seed', ['--force' => true]);
+        Artisan::call('storage:link', ['--force' => true]);
 
         $this->comment('Database Seeded Successfully...');
         $this->comment('Successfully Installed! You can now run the software');
