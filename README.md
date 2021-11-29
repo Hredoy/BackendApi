@@ -4,7 +4,7 @@
 
 <p>Sorry For The Late Delivery. My Current Company Given Me A Lot Of Task This 2 Weeks </p>
 
-## Installation Process
+## INSTALLATION PROCESS
 
 <p><b>Step: 1 - Clone Git/ Download The Git</b></p>
 <hr />
@@ -22,9 +22,26 @@ DB_PASSWORD=
 <p><b>Step: 3 - Run Artisan Command</b></p>
 <hr />
 <pre><code>php artisan software:install</code></pre>
-<p> Using this command it will automatically install the project.It will automatically migrate the database table and seed the data</p>
+<p> Using this command it will automatically install the project.It will automatically migrate the database table and insert the data in database.</p>
 
-## Serve
+## LOGIN CREDENTIALS
+
+<p><b>ADMIN LOGIN CREDENTIALS</b><p>
+<pre>
+    <code>
+        E-mail: admin@developer.com
+        Password: password
+    </code>
+</pre>
+<p><b>User LOGIN CREDENTIALS</b><p>
+<pre>
+    <code>
+        E-mail: customer@gmail.com
+        Password: password
+    </code>
+</pre>
+
+## SERVE
 
 <p><b>Run Project</b></p>
 <pre><code>php artisan serve</code></pre>
