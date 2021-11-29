@@ -27,18 +27,21 @@ DB_PASSWORD=
 ## LOGIN CREDENTIALS
 
 <p><b>ADMIN LOGIN CREDENTIALS</b><p>
-<pre>
+<pre>E-mail:
     <code>
-        E-mail: admin@developer.com
-        Password: password
+        admin@developer.com
     </code>
+    Password: 
+    <code>password</code>
 </pre>
 <p><b>User LOGIN CREDENTIALS</b><p>
 <pre>
+    E-mail: 
     <code>
-        E-mail: customer@gmail.com
-        Password: password
+       customer@gmail.com
     </code>
+    Password: 
+    <code>password</code>
 </pre>
 
 ## SERVE
