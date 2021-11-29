@@ -8,4 +8,7 @@
 
 <p><b>Step: 1 - Clone Git/ Download The Git</b></p>
 <hr />
-<pre><code>gh repo clone Hredoy/BackendApi</code></pre>
+<pre><code>git clone https://github.com/Hredoy/BackendApi.git</code></pre>
+<p><b>Step: 2 - Run Artisan Command</b></p>
+<hr />
+<pre><code>php artisan software:install</code></pre>
