@@ -9,12 +9,22 @@
 <p><b>Step: 1 - Clone Git/ Download The Git</b></p>
 <hr />
 <pre><code>git clone https://github.com/Hredoy/BackendApi.git</code></pre>
-<p><b>Step: 2 - Run Artisan Command</b></p>
+<p><b>Step: 2 - Define Your Database Name And Credentials In .env File</b></p>
+<hr />
+<pre><code>
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=newdatabase
+DB_USERNAME=root
+DB_PASSWORD=
+</code></pre>
+<p><b>Step: 3 - Run Artisan Command</b></p>
 <hr />
 <pre><code>php artisan software:install</code></pre>
-<p> This will automatically install and serve the the project.</p>
+<p> Using this command it will automatically install the project.It will automatically migrate the database table and seed the data</p>
 
 ## Serve
 
-<p><b style="text-transform:uppercase">Run Project</b></p>
+<p><b>Run Project</b></p>
 <pre><code>php artisan serve</code></pre>
