@@ -28,20 +28,12 @@ DB_PASSWORD=
 
 <p><b>ADMIN LOGIN CREDENTIALS</b><p>
 E-mail:
-<pre>
-    <code>
-        admin@developer.com
-    </code>
-</pre>
+<pre><code>admin@developer.com</code></pre>
     Password: 
-    <pre><code>password</code></pre>
+<pre><code>password</code></pre>
 <p><b>User LOGIN CREDENTIALS</b><p>
      E-mail: 
-<pre>
-    <code>
-       customer@gmail.com
-    </code>
-</pre>
+<pre><code>customer@gmail.com</code></pre>
 Password: 
 <pre><code>password</code><pre>
 
