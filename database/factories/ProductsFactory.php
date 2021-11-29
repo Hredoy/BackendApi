@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use Faker\Generator as Faker;
 use app\Models\Products;
+
 class ProductsFactory extends Factory
 {
     /**
@@ -17,11 +18,11 @@ class ProductsFactory extends Factory
     public function definition()
     {
         return [
-             'name' => $this->faker->title,
+            'name' => $this->faker->title,
             'description' => $this->faker->text,
-            'image' => $this->faker->text,
-            'price' => rand ( 100 , 999 ),
-            'qty' => rand ( 100 , 999 ),
+            'image' => "documents/fUInzviK6q99CxvbUpCjpnrwKEIacOKYEGD9aHlr.jpg",
+            'price' => rand(100, 999),
+            'qty' => rand(100, 999),
         ];
     }
 }
