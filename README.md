@@ -41,3 +41,7 @@ Password:
 
 <p><b>Run Project</b></p>
 <pre><code>php artisan serve</code></pre>
+
+## API DOCUMENTATION
+
+<a href="https://documenter.getpostman.com/view/14858329/UVJbJy2p">CLICK HERE TO SEE API DOCUMENTATION</a>
