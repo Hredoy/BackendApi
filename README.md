@@ -8,4 +8,4 @@
 
 <p><b>Step: 1 - Clone Git/ Download The Git</b></p>
 <hr />
-<p>`gh repo clone Hredoy/BackendApi`</p>
+<pre><code>gh repo clone Hredoy/BackendApi</code></pre>
