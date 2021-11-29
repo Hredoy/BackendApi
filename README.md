@@ -12,3 +12,9 @@
 <p><b>Step: 2 - Run Artisan Command</b></p>
 <hr />
 <pre><code>php artisan software:install</code></pre>
+<p> This will automatically install and serve the the project.</p>
+
+## Serve
+
+<p><b style="text-transform:uppercase">Run Project</b></p>
+<pre><code>php artisan serve</code></pre>
